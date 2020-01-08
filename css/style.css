@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:whitesmoke;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 35px;
+    overflow: hidden;
+    background-color:white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  hr{
+      width: 400px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.showcase {
+    position: relative;
+}
+.showcase-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.showcase-text .text-gras {
+    font-weight: bold;
+    background-color: black;
+    color: #fff;
+    opacity: .8;
+    padding: 10px;
+}
+
+.AP{
+    background-color:greenyellow;
+    height:100px ;
+}
+p{
+    text-align: center;
+    color:red;
+}
+.ST{
+    text-align: center;
+    color:black;
+
+}
+
+.image{
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+}
+#img{
+    padding: 30px;
+}
+div .ZONEIM{
+    border: 5px solid yellow;
+    background-color: chartreuse;
+}
+
+
+h1{
+    text-align:center ;
+    margin:200px;
+}
+.CC{
+    text-align:center ;
+    color: red;
+    background-color:blue;
+    height:100px;
+    margin: 20px;
+
+}
+.ACT{
+    border: 3px solid red;
+    display: inline;
+    text-align: center;
+}
